@@ -1,0 +1,92 @@
+
+@font-face {
+    font-family: 'TAN Summers';
+    src: url('/src/assets/TAN-Summers.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'TAN Summers', Arial, sans-serif;
+    background-color: #1e1e1e;
+}
+
+
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding-top: 80px;
+    background: linear-gradient(135deg, #0d0d2b, #2a2a72, #d53369);
+    width: 1540px;
+}
+
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1400px;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.hero-logo {
+    width: 10em;
+    max-height: 20em;
+    object-fit: contain;
+}
+
+
+.hero-right {
+    flex: 2;
+    text-align:center;
+    padding-left: 5px;
+}
+
+
+
+
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+    flex-direction: column;
+}
+
+
+.gradient-button {
+    padding: 10px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-family: 'TAN Summers', Arial, sans-serif;
+    cursor: pointer;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    transition: all 0.3s;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    outline: none;
+    max-width: 350px; /* 👈 این خط رو اضافه کن یا مقدارشو کم‌تر کن */
+    width: 100%;
+    margin: 0 auto;
+}
+
+.gradient-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+}

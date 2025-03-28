@@ -1,0 +1,104 @@
+/* continer*/
+.edit-profile-container {
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 35px;
+    margin-top: 100px;
+    background: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: #fff;
+}
+
+/* title main*/
+.edit-profile-container h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.2);
+}
+
+/* form*/
+.edit-profile-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+/* form groups*/
+.form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+/* lables*/
+.form-group label {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+/* input form group*/
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #444;
+    border-radius: 6px;
+    background: #2a2a2a;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #00bcd4;
+    background: #333;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 170%;
+    margin-top: 15px;
+}
+
+
+.save-btn {
+    background: linear-gradient(90deg, #8e44ad, #6f42c1);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    cursor: pointer;
+    flex: 1;
+    transition: 0.3s;
+}
+
+.save-btn:hover {
+    background: #0097a7;
+}
+
+
+.cancel-btn {
+    background: #e74c3c;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    cursor: pointer;
+    flex: 1;
+    transition: 0.3s;
+}
+
+.cancel-btn:hover {
+    background: #c0392b;
+}

@@ -1,0 +1,127 @@
+/* 📂 src/Css/Contact.css */
+
+.contact-container {
+    font-family: Arial, sans-serif;
+    color: #e0e0e0;
+    background-color: #1e1e2f;
+    padding-bottom: 40px;
+  }
+  
+  /* headerHero */
+  .hero-section {
+    position: relative;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #0d0d2b, #2a2a72, #d53369);
+    border-radius: 16px;
+    margin: 20px;
+  }
+  
+  .hero-overlay {
+    padding: 40px;
+    border-radius: 16px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.3);
+    max-width: 80%;
+  }
+  
+  .hero-title {
+    font-size: 3.5rem;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.2); 
+    margin: 0;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem;
+    color: #ddd;
+  }
+  
+  /* contact form*/
+  .contact-form-section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-container h2 {
+    font-size: 2rem;
+    color: #cb6ce6;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.2); 
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-size: 1rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: #bbb;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    background: #1e1e2f;
+    color: white;
+  }
+  
+  .submit-btn {
+    width: 45%;
+    padding: 12px;
+    font-size: 1.2rem;
+    background:  linear-gradient(90deg, #8e44ad, #6f42c1);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background: #a44cd6;
+  }
+  
+  /* info contact*/
+  .contact-info-section {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .contact-info-section h2 {
+    font-size: 2rem;
+    color: #cb6ce6;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #bbb;
+  }
+  
+  /* map*/
+  .map-container {
+    width: 80%;
+    margin: 20px auto;
+  }
+  
